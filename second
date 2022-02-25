@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my forth task</title>
+    </head>
+<body>
+    <h1>hello world</h1>
+   <script>
+       var a=10;
+      var b=15;
+      if(a>b)
+      {
+          console.log("a greater than b")
+      }
+        else
+        {
+            console.log("b greater than a")
+        }
+        var a=1;
+       var b=-10;
+       var c=55;
+       var d=20;
+      var  f=11;
+        if(a>b && a>c && a>d && a>f)
+        {
+            document.write(a);
+        }
+        else if(b>a && b>c && b>d &&b>f)
+        {
+            document.write(b);
+        }
+        else if(c>a && c>b && c>d && c>f)
+        {
+            document.write(c);
+        }
+        else if(d>a && d>b && d>c && d>f )
+        {
+            document.write(d);
+        }
+        else{
+            document.write(f);
+        }
+
+        let arr =[0,1,3,4]
+        arr.length-1
+        for (var i = arr.length - 1; i >= 0; i--) {
+        console.log(arr[i])	
+        }
+        let str ="roma"
+        if (str.includes('r'))
+       {
+           console.log('yes');
+       }
+       else{
+           console.log('no');
+       }
+   </script> 
+</body>
+</html>
